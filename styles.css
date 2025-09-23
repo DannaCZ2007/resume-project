@@ -1,0 +1,13 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color:#f4f4f4;
+  color: #3333:
+  line-height: 1.6;
+}
+.header {
+  backgrond-color: #004cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+}
