@@ -1,13 +1,63 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 body{
   font-family: Arial, sans-serif;
-  background-color:#f4f4f4;
-  color: #3333:
+  background-color: #f4f4f4;
+  color: #333:
   line-height: 1.6;
-}
-.header {
-  backgrond-color: #004cc;
-  color: white;
-  text-align: center;
   padding: 20px;
+}
+h1, h2 {
   font-family: 'Georgia', serif;
+  color: #003366;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+/* Paragraph Styling */
+p {
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+#title {
+  font-weight: bold;
+  color: #66ccff;
+}
+#experience, #education, #skills {
+  font-size: 1rem;
+  color: blakc;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  background-color: #66ccff;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 4px;
+  color: black;
+}
+/* Responsive Design*/
+@media (max-width: 768px) {
+  body{
+    padding: 15px;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-sizze: 0.9rem;
+  }
 }
