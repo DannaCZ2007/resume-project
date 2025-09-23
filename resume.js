@@ -1,8 +1,17 @@
 let myName = "Danna";
 let title = "Student";
-let experience = "Science fair projects, Event leadership, Forum Talker";
+let experience = ["Science fair projects", "Event leadership", "Forum Talker"];
+letexperienceList =document.createElement("ul");
 let education = "Oral Roberts University";
-let skills = "Hard-working, great at mathematics, problem solving"
+let skills = ["Hard-working", "great at mathematics", "problem solving"];
+letskillsList =document.createElement("ul");
+
+for (let i= 0; i < skills.length; i++) {
+  let li = document.createElement("li");
+  li.textContent + skills[i];
+  skillsList.appendChild(li);
+}
+document.body.appendChild(skillsList);
 //let skills = "something"; //TODO
 //Connect Variables to the HTML (ligaments)
 document.getElementById ("my-name").textContent = myName;
