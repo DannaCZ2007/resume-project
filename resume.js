@@ -1,7 +1,6 @@
 let myName = "Danna";
 let title = "Student";
 let experience = ["Science fair projects", "Event leadership", "Forum Talker"];
-letexperienceList =document.createElement("ul");
 let education = "Oral Roberts University";
 let skills = ["Hard-working", "great at mathematics", "problem solving"];
 letskillsList =document.createElement("ul");
