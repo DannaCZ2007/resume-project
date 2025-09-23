@@ -7,7 +7,7 @@ letskillsList =document.createElement("ul");
 
 for (let i= 0; i < skills.length; i++) {
   let li = document.createElement("li");
-  li.textContent + skills[i];
+  li.textContent = skills[i];
   skillsList.appendChild(li);
 }
 document.body.appendChild(skillsList);
