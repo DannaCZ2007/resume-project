@@ -15,7 +15,6 @@ document.getElementById("my-name").textContent = myName;
 document.getElementById("title").textContent = title;
 document.getElementById("experience").textContent = experience;
 document.getElementById("education").textContent = education;
-document.getElementById("skills").textContent = skills;
 
 function showFunFact(){
   alert("Fun Fact: I like to dance");
